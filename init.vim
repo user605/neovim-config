@@ -30,6 +30,8 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 
 " if (has("termguicolors"))
 set termguicolors
+" comment below line to remove transparency from nvim
+au ColorScheme * hi Normal guibg=none
 " endif
 
 let mapleader= ";"
